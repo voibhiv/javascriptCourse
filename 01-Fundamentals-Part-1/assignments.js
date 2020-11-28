@@ -37,3 +37,20 @@
 // console.log(language);
 
 // =================================================================================================================== //
+//LECTURE: Let, Const, Var
+
+// 1. Set the value of 'language' to the language spoken where you live (some
+//countries have multiple languages, but just choose one)
+
+// let language = "Brazillian Portuguese";
+
+// 2. Think about which variables should be const variables (which values will never
+//change, and which might change?). Then, change these variables to const.
+
+// "R -> Variaveis const servem efetivamente para setar valores unicos"
+
+// 3. Try to change one of the changed variables now, and observe what happens
+
+// "R-> Erro"
+
+// =================================================================================================================== //
