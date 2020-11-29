@@ -38,4 +38,4 @@ let johnBMI2 = johnMass2 / johnHeight2 ** 2; // mass / (height * height)
 
 markHigherBMI2 = markBMI2 > johnBMI2;
 
-console.log("O BMI de mark é maior que de John?: " + markHigherBMI2); 
+console.log("O BMI de mark é maior que de John?: " + markHigherBMI2);
