@@ -54,3 +54,37 @@
 // "R-> Erro"
 
 // =================================================================================================================== //
+//LECTURE: Basic Operators
+
+// 1. If your country split in half, and each half would contain half the population,
+// then how many people would live in each half?
+
+// let totalPopulationBrazil = 209500000; //2020
+// console.log("Total Population Per Half: " + totalPopulationBrazil / 2);
+
+// // 2. Increase the population of your country by 1 and log the result to the console
+
+// console.log(totalPopulationBrazil + 1);
+
+// // 3. Finland has a population of 6 million. Does your country have more people than
+// // Finland?
+
+// let totalPopulationFinland = 6000000;
+// let isBigger = totalPopulationBrazil > totalPopulationFinland;
+// console.log("Is brazil bigger than Finland?: " + isBigger);
+
+// // 4. The average population of a country is 33 million people. Does your country
+// // have less people than the average country?
+
+// let countryDates = 33000000;
+// isBigger = totalPopulationBrazil > countryDates;
+// console.log("Is brazil bigger than country?: " + isBigger);
+
+// // 5. Based on the variables you created, create a new variable 'description'
+// // which contains a string with this format: 'Portugal is in Europe, and its 11 million
+// // people speak portuguese
+
+// let description = "Brazil is in America, and its " + totalPopulationBrazil + " million people speak portuguese";
+
+// console.log(description);
+// =================================================================================================================== //
