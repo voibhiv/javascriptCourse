@@ -16,26 +16,36 @@ let johnHeight = 1.95;
 // aux variable
 let markHigherBMI;
 
-let markBMI = markMass / markHeight ** 2; // mass / (height * height)
-let johnBMI = johnMass / johnHeight ** 2; // mass / (height * height)
+let markBMI = markMass / (markHeight ** 2); // mass / (height * height)
+let johnBMI = johnMass / (johnHeight ** 2); // mass / (height * height)
 
 markHigherBMI = markBMI > johnBMI;
 
 console.log("O BMI de mark é maior que de John?: " + markHigherBMI);
+
 // Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76m tall.
 
+//Variable reset 
+markMass = "";
+johnMass = "";
+markHeight = "";
+johnHeight = "";
+markHigherBMI = "";
+markBMI = "";
+jonhBMI = "";
+markHigherBMI = "";
 //Mass
-let markMass2 = 95;
-let johnMass2 = 85;
+markMass = 95;
+johnMass = 85;
 //Height
-let markHeight2 = 1.88;
-let johnHeight2 = 1.76;
+markHeight = 1.88;
+johnHeight = 1.76;
 // aux variable
-let markHigherBMI2;
+markHigherBMI;
 
-let markBMI2 = markMass2 / markHeight2 ** 2; // mass / (height * height)
-let johnBMI2 = johnMass2 / johnHeight2 ** 2; // mass / (height * height)
+markBMI = markMass / (markHeight ** 2); // mass / (height * height)
+johnBMI = johnMass / (johnHeight ** 2); // mass / (height * height)
 
-markHigherBMI2 = markBMI2 > johnBMI2;
+markHigherBMI = markBMI > johnBMI;
 
-console.log("O BMI de mark é maior que de John?: " + markHigherBMI2);
+console.log("O BMI de mark é maior que de John?: " + markHigherBMI); 
