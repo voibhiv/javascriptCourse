@@ -16,8 +16,8 @@ let johnHeight = 1.95;
 // aux variable
 let markHigherBMI;
 
-let markBMI = markMass / (markHeight ** 2); // mass / (height * height)
-let johnBMI = johnMass / (johnHeight ** 2); // mass / (height * height)
+let markBMI = markMass / markHeight ** 2; // mass / (height * height)
+let johnBMI = johnMass / johnHeight ** 2; // mass / (height * height)
 
 markHigherBMI = markBMI > johnBMI;
 
@@ -43,8 +43,8 @@ johnHeight = 1.76;
 // aux variable
 markHigherBMI;
 
-markBMI = markMass / (markHeight ** 2); // mass / (height * height)
-johnBMI = johnMass / (johnHeight ** 2); // mass / (height * height)
+markBMI = markMass / markHeight ** 2; // mass / (height * height)
+johnBMI = johnMass / johnHeight ** 2; // mass / (height * height)
 
 markHigherBMI = markBMI > johnBMI;
 
