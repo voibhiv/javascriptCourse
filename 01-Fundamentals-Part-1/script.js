@@ -78,3 +78,45 @@
 
 // const averageAge = (ageJonas + ageSarah) / 2;
 // console.log(ageJonas, ageSarah, averageAge);
+
+// =================================================================================================================== //
+// AULA 17 - STRING AND TEMPLATE LITERALS
+
+// const firstName = "Jonas";
+// const job = "Teacher";
+// const birthYear = 1991;
+// const year = 2037;
+
+// let jonas = "I'm " + firstName + ', a ' + (year - birthYear) + " years old " + job + "!";
+// console.log(jonas);
+
+// // TEMPLATE LITERALS
+
+// jonas = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+
+// console.log(jonas);
+
+// =================================================================================================================== //
+// AULA 18 - IF ELSE / STATEMENT
+
+// const age = 15;
+
+// if (age >= 18) {
+//     console.log(`Sarah can start driving license 🚗`);
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years 🙂`);
+// }
+
+// const birthYear = 2012;
+
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// console.log(century);
+
+// =================================================================================================================== //

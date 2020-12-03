@@ -88,3 +88,28 @@
 
 // console.log(description);
 // =================================================================================================================== // 
+//LECTURE: Strings and Template Literals
+
+
+// // 1. Recreate the 'description' variable from the last assignment, this time
+// // using the template literal syntax
+
+// let totalPopulationBrazil = 209500000; //2020
+// console.log(`Total Population Per Half: ${(totalPopulationBrazil / 2)}`);
+// console.log(totalPopulationBrazil + 1);
+
+
+// let totalPopulationFinland = 6000000;
+// let isBigger = totalPopulationBrazil > totalPopulationFinland;
+// console.log(`Is brazil bigger than Finland?: ${isBigger}`);
+
+// let countryDates = 33000000;
+// isBigger = totalPopulationBrazil > countryDates;
+// console.log(`Is brazil bigger than country?: ${isBigger}`);
+
+// let description = `Brazil is in America, and its ${totalPopulationBrazil} million people speak portuguese`;
+
+// console.log(description);
+
+
+// =================================================================================================================== // 
