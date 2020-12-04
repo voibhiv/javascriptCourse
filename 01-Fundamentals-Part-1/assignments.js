@@ -1,14 +1,14 @@
 // =================================================================================================================== //
 //LECTURE: Values and Variables
 
-// 1. Declare variables called 'country', 'continent' and 'population' and
-// assign their values according to your own country (population in millions)
+// // 1. Declare variables called 'country', 'continent' and 'population' and
+// // assign their values according to your own country(population in millions)
 
 // let country = "Brazil";
 // let continent = "American continent";
 // let population = "211.8 millions";
 
-// 2. Log their values to the console
+// // 2. Log their values to the console
 
 // console.log(country);
 // console.log(continent);
@@ -17,9 +17,9 @@
 // =================================================================================================================== //
 //LECTURE: Data Types
 
-// 1. Declare a variable called 'isIsland' and set its value according to your
-// country. The variable should hold a Boolean value. Also declare a variable
-// 'language', but don't assign it any value yet
+// // 1. Declare a variable called 'isIsland' and set its value according to your
+// // country.The variable should hold a Boolean value.Also declare a variable
+// // 'language', but don't assign it any value yet
 
 // let country = "Brazil";
 // let continent = "American continent";
@@ -27,8 +27,8 @@
 // let isIsland = false;
 // let language = "Portuguese";
 
-// 2. Log the types of 'isIsland', 'population', 'country' and 'language'
-// to the console
+// // 2. Log the types of 'isIsland', 'population', 'country' and 'language'
+// // to the console
 
 // console.log(country);
 // console.log(continent);
@@ -39,25 +39,25 @@
 // =================================================================================================================== //
 //LECTURE: Let, Const, Var
 
-// 1. Set the value of 'language' to the language spoken where you live (some
-//countries have multiple languages, but just choose one)
+// // 1. Set the value of 'language' to the language spoken where you live(some
+// // countries have multiple languages, but just choose one)
 
 // let language = "Brazillian Portuguese";
 
-// 2. Think about which variables should be const variables (which values will never
-//change, and which might change?). Then, change these variables to const.
+// // 2. Think about which variables should be const variables (which values will never
+// // change, and which might change ?).Then, change these variables to const.
 
 // "R -> Variaveis const servem efetivamente para setar valores unicos"
 
-// 3. Try to change one of the changed variables now, and observe what happens
+// // 3. Try to change one of the changed variables now, and observe what happens
 
 // "R-> Erro"
 
 // =================================================================================================================== //
 //LECTURE: Basic Operators
 
-// 1. If your country split in half, and each half would contain half the population,
-// then how many people would live in each half?
+// // 1. If your country split in half, and each half would contain half the population,
+// // then how many people would live in each half ?
 
 // let totalPopulationBrazil = 209500000; //2020
 // console.log("Total Population Per Half: " + totalPopulationBrazil / 2);
@@ -87,6 +87,7 @@
 // let description = "Brazil is in America, and its " + totalPopulationBrazil + " million people speak portuguese";
 
 // console.log(description);
+
 // =================================================================================================================== // 
 //LECTURE: Strings and Template Literals
 
@@ -111,5 +112,21 @@
 
 // console.log(description);
 
+// =================================================================================================================== // 
+// LECTURE: Taking Decisions: if / else Statements
+
+// // 1. If your country's population is greater that 33 million, log a string like this to the
+// // console: 'Portugal's population is above average'. Otherwise, log a string like
+// // 'Portugal's population is 22 million below average' (the 22 is the average of 33
+// // minus the country's population)
+
+// let totalPopulationBrazil = 209500000; //2020
+
+// if (totalPopulationBrazil > 33000000) {
+//     console.log(`A população Brasileira está acima da média`);
+// } else {
+//     let populationAverage = 33000000 - totalPopulationBrazil;
+//     console.log(`A população Brasileira é ${populationAverage} abaixo da média`);
+// }
 
 // =================================================================================================================== // 
