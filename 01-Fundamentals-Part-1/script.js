@@ -120,3 +120,22 @@
 // console.log(century);
 
 // =================================================================================================================== //
+// AULA 20 - TYPE CONVERSION AND COERCION
+
+// //Type Conversion
+// const inputYear = '1991';
+// console.log(Number(inputYear));//Converte em valor numérico
+// console.log(inputYear + 18); 
+
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
+
+// console.log((23), 23);
+
+// //Type Coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('23' - '10' - 3);
+// console.log('23' / '2');
+// console.log('23' > '18');
+
+// =================================================================================================================== //
