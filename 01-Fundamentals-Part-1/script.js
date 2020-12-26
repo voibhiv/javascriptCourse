@@ -144,24 +144,52 @@
 
 // 5 falsy values: 0, '', undefined, null, NaN
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean('Jonas'));
-console.log(Boolean({}));
-console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
-const money = 100;
+// const money = 100;
 
-if (money) {
-    console.log("Don't spend it all ;)");
-} else {
-    console.log("You should get a job!");
-}
+// if (money) {
+//     console.log("Don't spend it all ;)");
+// } else {
+//     console.log("You should get a job!");
+// }
 
-let height;
-if (height) {
-    console.log('YAY! Height is defined');
-} else {
-    console.log("Height is UNDEFINED");
-}
+// let height;
+// if (height) {
+//     console.log('YAY! Height is defined');
+// } else {
+//     console.log("Height is UNDEFINED");
+// }
 
+// =================================================================================================================== //
+
+//AULA 22. Equality Operators: == vs. ===
+
+// const age = 18; 
+// //nao faz coersao de valores
+// if (age === 18) console.log('You just become an adult :D');
+// //faz coersao de valores
+// // if (age == 18) console.log('You just become an adult :D');
+// //7
+// const favourite = Number(prompt("What's your favourite number?"));
+
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite == 7) { // '7' == 7
+//     console.log("Cool! 7 is an amazing number!");
+// } else if (favourite == 23) {
+//     console.log("23 is also a cool number!");
+// }  else if (favourite == 9) {
+//     console.log("9 is also a cool number!");
+// } else {
+//     console.log("Number is not 23 or 7 or 9");
+// }
+
+// if (favourite !== 23) console.log("Why not 23?");
+
+// =================================================================================================================== //

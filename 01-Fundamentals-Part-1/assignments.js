@@ -143,3 +143,32 @@
 // 2. Execute the operations to check if you were right
 
 // =================================================================================================================== // 
+// LECTURE: Equality Operators: == vs. ===
+
+// let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+// if (numNeighbours === 1) {
+//     console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+//     console.log('More than 1 border');
+// } else {
+//     console.log('No borders!');
+// }
+
+// 6. Change == to ===, and test the code again, with the same values of
+// 'numNeighbours'. Notice what happens when there is exactly 1 border! Why
+// is this happening?
+
+// R - Porque o valor numNeighbours é um string e o operador === nao faz a coersao.
+
+// 7. Finally, convert 'numNeighbours' to a number, and watch what happens now
+// when you input 1
+
+// R - Funciona porque fizemos a conversao.
+
+// 8. Reflect on why we should use the === operator and type conversion in this
+// situation
+
+//  R - Preferencia.
+
+// =================================================================================================================== // 
