@@ -172,3 +172,18 @@
 //  R - Preferencia.
 
 // =================================================================================================================== // 
+
+// LECTURE: Logical Operators
+
+// const nameCountry = prompt("Qual é o País?");
+// const language = prompt("Que lingua falam?");
+// const totalPopulation = Number(prompt("A população do país é de quanto? (em milhões)"));
+// const isIsland = prompt("É uma ilha?");
+
+// if ((language === 'english' || language === 'ingles') && totalPopulation >= 50 && ( isIsland == 'false' || isIsland === 'nao') ) {
+//     console.log(`${nameCountry} está apto a moradia de acordo com os termos`);
+// } else {
+//     console.log(`${nameCountry} não está apto a moradia de acordo com os termos`);
+// }
+
+// =================================================================================================================== // 
