@@ -76,3 +76,20 @@
 // console.log(yearsUntilRetirement(1980, 'Bob'));
 
 // ===================================================================================================================
+
+// AULA 36. Functions Calling Other Functions
+
+// function cutFruitPieces (fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//     const applesPieces = cutFruitPieces (apples);
+//     const orangesPieces = cutFruitPieces (oranges);
+//     const juice = `Juice with ${applesPieces} apples and ${orangesPieces} oranges.`;
+//     return juice;
+// }
+
+// console.log(fruitProcessor(2, 3));
+
+// ===================================================================================================================
