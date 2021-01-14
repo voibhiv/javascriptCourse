@@ -1,3 +1,4 @@
+// @ts-nocheck
 // ===================================================================================================================
 
 // LECTURE: Functions
@@ -224,5 +225,47 @@
 // console.log(myCountry);
 // myCountry['population'] = myCountry['population'] - 2;
 // console.log(myCountry);
+
+// ===================================================================================================================
+
+// LECTURE: Object Methods
+
+// // 1. Add a method called 'describe' to the 'myCountry' object. This method
+// // will log a string to the console, similar to the string logged in the previous
+// // assignment, but this time using the 'this' keyword.
+
+// const myCountry = {
+//     country: 'Brazil',
+//     capital: 'Brasília',
+//     language: 'Português',
+//     population: 209.5,
+//     neighbours: ['Argentina', 'Uruguai', 'Colômbia'],
+
+//     describe: function() {
+//         return `${this.country} has ${this.population} finnish-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}`;
+//     },
+
+//     checkIsland: function() {
+//         this.isIsland = (this.neighbours.length != 0) ? true : false;
+
+//         if (this.isIsland) {
+//             return `${this.country} is not Island`;
+//         } else {
+//             return `${this.country} is Island`;
+//         }
+//     }
+
+// }
+
+// // 2. Call the 'describe' method
+
+// console.log(myCountry.describe());
+
+// // 3. Add a method called 'checkIsland' to the 'myCountry' object. This
+// // method will set a new property on the object, called 'isIsland'.
+// // 'isIsland' will be true if there are no neighbouring countries, and false if
+// // there are. Use the ternary operator to set the property.
+
+// console.log(myCountry.checkIsland());
 
 // ===================================================================================================================

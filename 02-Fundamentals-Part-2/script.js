@@ -251,3 +251,33 @@
 // console.log(`${jonas['firstName']} has ${jonas['friends'].length} friends, and his best friend is ${jonas['friends'][0]}`);
 
 // ===================================================================================================================
+
+// AULA 44. Object Methods
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'Teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+
+//     // Method
+//     calcAge: function() {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
+
+//     //Method
+//     getSummary: function() {
+//         return `${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${(this.hasDriversLicense) ? 'a' : 'no'} drivers license `;
+//     }
+
+// }
+
+// // Challenge 
+// // "Jonas is a 46-year old teacher, and he has a/no drivers license"
+
+// console.log(jonas.getSummary());
+
+// ===================================================================================================================
