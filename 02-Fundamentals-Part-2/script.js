@@ -281,3 +281,22 @@
 // console.log(jonas.getSummary());
 
 // ===================================================================================================================
+
+// AULA 46. Iteration: The for Loop
+
+// // console.log('Lifting weights repetetion 1');
+// // console.log('Lifting weights repetetion 2');
+// // console.log('Lifting weights repetetion 3');
+// // console.log('Lifting weights repetetion 4');
+// // console.log('Lifting weights repetetion 5');
+// // console.log('Lifting weights repetetion 6');
+// // console.log('Lifting weights repetetion 7');
+// // console.log('Lifting weights repetetion 8');
+// // console.log('Lifting weights repetetion 9');
+// // console.log('Lifting weights repetetion 10');
+
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetetion ${rep}`);
+// }
+
+// ===================================================================================================================
