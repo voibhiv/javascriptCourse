@@ -300,3 +300,40 @@
 // }
 
 // ===================================================================================================================
+
+// AULA 47. Looping Arrays, Breaking and Continuing
+
+const jonas = [
+    'Jonas', 
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    true
+];
+
+const types = [];
+
+for (let i = 0; i < jonas.length; i++) {
+    // Reaing from jonas array
+    console.log(jonas[i]);
+
+    //Filling types array
+    // types[i] = typeof jonas[i];
+    types.push(typeof jonas[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const birthYear = [];
+
+for (let x = 0; x < years.length; x++) {
+    birthYear[x] = 2021 - years[x];
+}
+
+console.log(birthYear);
+
+
+
+// ===================================================================================================================
