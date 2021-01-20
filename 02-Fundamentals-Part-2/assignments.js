@@ -281,3 +281,28 @@
 // }
 
 // ===================================================================================================================
+
+// LECTURE: Looping Arrays, Breaking and Continuing
+
+// // 1. Let's bring back the 'populations' array from a previous assignment
+
+// // [Canada, Brazil, EUA, Portugal]
+// const populations = [37.59, 209.5, 328.2, 10.28];
+
+// // 2. Use a for loop to compute an array called 'percentages2' containing the
+// // percentages of the world population for the 4 population values. Use the
+// // function 'percentageOfWorld1' that you created earlier
+
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
+
+// const percentages2 = [];
+
+// for (let i = 0; i < populations.length; i++) {
+//     percentages2[i] = percentageOfWorld1(populations[i]);
+// }
+
+// console.log(percentages2);
+
+// ===================================================================================================================

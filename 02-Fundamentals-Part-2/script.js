@@ -303,37 +303,50 @@
 
 // AULA 47. Looping Arrays, Breaking and Continuing
 
-const jonas = [
-    'Jonas', 
-    'Schmedtmann',
-    2037 - 1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven'],
-    true
-];
+// const jonas = [
+//     'Jonas', 
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven'],
+//     true
+// ];
 
-const types = [];
+// const types = [];
 
-for (let i = 0; i < jonas.length; i++) {
-    // Reaing from jonas array
-    console.log(jonas[i]);
+// for (let i = 0; i < jonas.length; i++) {
+//     // Reaing from jonas array
+//     console.log(jonas[i]);
 
-    //Filling types array
-    // types[i] = typeof jonas[i];
-    types.push(typeof jonas[i]);
-}
+//     //Filling types array
+//     // types[i] = typeof jonas[i];
+//     types.push(typeof jonas[i]);
+// }
 
-console.log(types);
+// console.log(types);
 
-const years = [1991, 2007, 1969, 2020];
-const birthYear = [];
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
 
-for (let x = 0; x < years.length; x++) {
-    birthYear[x] = 2021 - years[x];
-}
+// for (let x = 0; x < years.length; x++) {
+//     ages[x] = 2037 - years[x];
+// }
 
-console.log(birthYear);
+// console.log(ages);
 
+// //continue and break 
+// console.log("--- ONLY STRINGS ---");
+// for (let i = 0; i < jonas.length; i++) {
+//     if (typeof jonas[i] !== 'string') continue;
 
+//     console.log(jonas[i], typeof jonas[i]);
+// }
+
+// console.log("--- BREAK WITH NUMBER ---");
+// for (let i = 0; i < jonas.length; i++) {
+//     if (typeof jonas[i] === 'number')  break;
+
+//     console.log(jonas[i], typeof jonas[i]);
+// }
 
 // ===================================================================================================================
