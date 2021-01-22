@@ -330,3 +330,37 @@
 // }
 
 // ===================================================================================================================
+
+// LECTURE: The while Loop
+
+// // 1. Recreate the challenge from the lecture 'Looping Arrays, Breaking and Continuing',
+// // but this time using a while loop (call the array 'percentages3')
+
+// // Let's bring back the 'populations' array from a previous assignment
+
+// // [Canada, Brazil, EUA, Portugal]
+// const populations = [37.59, 209.5, 328.2, 10.28];
+
+// // Use a while loop to compute an array called 'percentages3' containing the
+// // percentages of the world population for the 4 population values. Use the
+// // function 'percentageOfWorld1' that you created earlier
+
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
+
+// const percentages3 = [];
+
+// let i = 0;
+
+// while (i <= populations.length - 1) {
+//     percentages3[i] = percentageOfWorld1(populations[i]);
+//     i++
+// }
+
+// // 2. Reflect on what solution you like better for this task: the for loop or the while
+// // loop?
+
+// // R - FOR LOOP
+
+// ===================================================================================================================
