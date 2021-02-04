@@ -86,3 +86,40 @@
 // console.log(calcTempAmplitude2([3,5,1], [9,0,5]));
 
 // ===================================================================================================================
+
+// AULA 61. Debugging with the Console and Breakpoints
+
+const measureKelvin = function () {
+    const measurement = {
+        type: 'temp',
+        unit: 'celsius',
+        value: prompt('Degrees celsius')
+    }
+
+    const kelvin = measurement.value + 273;
+    return kelvin;
+}
+
+const calcTempAmplitudeBug = function (temps1,temps2) {
+    let temps = temps1.concat(temps2);
+    let auxMax = 0;
+    let auxMin = 0;
+
+    for (let i = 0; i <= temps.length; i++) {
+        if (typeof temps[i] !== 'number') continue;
+        
+        auxMax = (temps[i] > auxMax) ? temps[i] : auxMax;
+        auxMin = (temps[i] < auxMin) ? temps[i] : auxMin;
+        
+    }
+    if (auxMin < 0) {
+        return auxMax - (-auxMin);
+    } else {
+        return auxMax - auxMin;
+    }
+}
+
+
+const amplitudeBug = calcTempAmplitudeBug([3,5,1], [9,4,5]);
+// A) IDENTIFY 
+console.log(measureKelvin());
