@@ -4,8 +4,8 @@
 // Selecting Elements
 const score0El   = document.querySelector('#score--0');
 const score1El   = document.querySelector('#score--1');
-const currentEl0 = document.querySelector('#current--0');
-const currentEl1 = document.querySelector('#current--1');
+const current0El = document.querySeElctor('#current--0');
+const current1El = document.querySelector('#current--1');
 const diceEL     = document.querySelector('.dice');
 const btnNew     = document.querySelector('.btn--new');
 const btnRoll    = document.querySelector('.btn--roll');
@@ -33,7 +33,7 @@ btnRoll.addEventListener('click', function() {
   if (dice !== 1)  {
     // Add dice to current score
     currentScore += dice;
-    currentEl0.textContent = currentScore;
+    current0El.textContent = currentScore;
   } else {
     // Switch to next player
 
