@@ -99,38 +99,73 @@
 // const f = jonas.calcAge;
 // f();
 
-const jonas = {
-  firstName: 'Jonas',
-  year: 1991,
-  calcAge: function () {
-    // console.log(this);
-    console.log(2037 - this.year);
+// const jonas = {
+//   firstName: 'Jonas',
+//   year: 1991,
+//   calcAge: function () {
+//     // console.log(this);
+//     console.log(2037 - this.year);
 
-    // Solution 1
-    // const self = this; // self or that
-    // const isMillenal = function () {
-    //   console.log(self);
-    //   console.log(self.year >= 1981 && self.year <= 1996)
-    // };
+//     // Solution 1
+//     // const self = this; // self or that
+//     // const isMillenal = function () {
+//     //   console.log(self);
+//     //   console.log(self.year >= 1981 && self.year <= 1996)
+//     // };
 
-    const isMillenal =  () => {
-      console.log(this);
-      console.log(this.year >= 1981 && this.year <= 1996)
-    };
-    isMillenal();
-  },
-  greet: () => {
-    console.log(this);
-    console.log(`Hey ${this.firstName}`);
-  }
+//     const isMillenal =  () => {
+//       console.log(this);
+//       console.log(this.year >= 1981 && this.year <= 1996)
+//     };
+//     isMillenal();
+//   },
+//   greet: () => {
+//     console.log(this);
+//     console.log(`Hey ${this.firstName}`);
+//   }
 
-};
+// };
 
-jonas.calcAge();
-jonas.greet();
+// jonas.calcAge();
+// jonas.greet();
 
-const addExpr = function (a, b) {
-  console.log(arguments); //no exist in arrow functions
-  return a + b;
+// const addExpr = function (a, b) {
+//   console.log(arguments); //no exist in arrow functions
+//   return a + b;
+// }
+// addExpr(2,5,9,7);
+
+// Primitive Types
+let lastName = 'Willians';
+let oldLastName = lastName;
+lastName = 'Davis';
+console.log(lastName, oldLastName);
+
+// Reference types
+const jessica = {
+  firstName: 'Jessica',
+  lastName: 'Willians',
+  age: 27
 }
-addExpr(2,5,9,7);
+
+const marriedJessica = jessica;
+marriedJessica.lastName = 'Davis';
+console.log('Before marriage: ', jessica);
+console.log('After marriage: ', marriedJessica);
+
+// Copying objects
+const jessica2 = {
+  firstName: 'Jessica',
+  lastName: 'Willians',
+  age: 27,
+  family: ['Alice', 'Bob']
+}
+
+const jessicaCopy = Object.assign({}, jessica2);
+jessicaCopy.lastName = 'Davis';
+
+jessicaCopy.family.push('Mary');
+jessicaCopy.family.push('John');
+
+console.log('Before marriage', jessica2);
+console.log('After marriage', jessicaCopy);
