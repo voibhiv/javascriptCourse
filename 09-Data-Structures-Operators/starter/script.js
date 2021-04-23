@@ -20,6 +20,10 @@ const restaurant = {
     console.log(`Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`);
   },
 
+  orderPasta: function(ing1, ing2, ing3) {
+    console.log(`Here is delicious pasta with ${ing1}, ${ing2} and ${ing3}`);
+  },
+
   openingHours: {
     thu: {
       open: 12,
@@ -62,6 +66,24 @@ const letters = [...str, ' ', 'S'];
 console.log(letters);
 console.log(...str);
 // console.log(`${...str} Schmedtmann`);
+
+// Real-world example
+// const ingredients = [
+//   prompt("Let's make pasta! Ingredient 1?"), 
+//   prompt("Let's make pasta! Ingredient 2?"),
+//   prompt("Let's make pasta! Ingredient 3")
+// ];
+
+// restaurant.orderPasta(...ingredients);
+
+// Objects
+const newRestaurant = {founded: '1998', ...restaurant, founder: 'Guiseppe'};
+console.log(newRestaurant);
+
+const restaurantCopy = {...restaurant};
+restaurantCopy.name = 'Restaurante Brazil';
+console.log(restaurantCopy.name);
+console.log(restaurant.name);
 
 /////////////////////////////
 // Destructuring objects
