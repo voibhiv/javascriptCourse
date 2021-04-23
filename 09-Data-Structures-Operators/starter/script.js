@@ -40,31 +40,49 @@ const restaurant = {
   },
 };
 
-const arr = [7,8,9];
-const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
-console.log(badNewArr);
+// SPREAD, becaus on RIGHT side of =
+const arr = [1, 2, ...[3, 4]]
 
-const newArr = [1, 2, ...arr];
-console.log(newArr);
+// REST, because on LEFT side of = 
+const [a, b, ...others] = [1, 2, 3, 4, 5];
+console.log(a, b, others);
 
-console.log(...newArr);
-console.log(1, 2, 7, 8, 9);
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu
+];
+console.log(pizza, risotto, otherFood);
 
-// Copy array
-const mainMenuCopy = [...restaurant.mainMenu];
 
-// Join 2 arrays
-const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
-console.log(menu);
+
+/////////////////////////////
+// THE SPREAD OPERATOR
+
+// const arr = [7,8,9];
+// const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
+// console.log(badNewArr);
+
+// const newArr = [1, 2, ...arr];
+// console.log(newArr);
+
+// console.log(...newArr);
+// console.log(1, 2, 7, 8, 9);
+
+// // Copy array
+// const mainMenuCopy = [...restaurant.mainMenu];
+
+// // Join 2 arrays
+// const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+// console.log(menu);
 
 // const menu = [...restaurant.mainMenu + ''];
 // console.log(menu);
 
 // Iterables: arrays, strings, maps, sets. NOT objects
-const str = 'Jonas';
-const letters = [...str, ' ', 'S'];
-console.log(letters);
-console.log(...str);
+// const str = 'Jonas';
+// const letters = [...str, ' ', 'S'];
+// console.log(letters);
+// console.log(...str);
 // console.log(`${...str} Schmedtmann`);
 
 // Real-world example
@@ -77,13 +95,13 @@ console.log(...str);
 // restaurant.orderPasta(...ingredients);
 
 // Objects
-const newRestaurant = {founded: '1998', ...restaurant, founder: 'Guiseppe'};
-console.log(newRestaurant);
+// const newRestaurant = {founded: '1998', ...restaurant, founder: 'Guiseppe'};
+// console.log(newRestaurant);
 
-const restaurantCopy = {...restaurant};
-restaurantCopy.name = 'Restaurante Brazil';
-console.log(restaurantCopy.name);
-console.log(restaurant.name);
+// const restaurantCopy = {...restaurant};
+// restaurantCopy.name = 'Restaurante Brazil';
+// console.log(restaurantCopy.name);
+// console.log(restaurant.name);
 
 /////////////////////////////
 // Destructuring objects
