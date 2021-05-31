@@ -46,13 +46,15 @@ const restaurant = {
   },
 };
 
-restaurant.numGuests = 0;
+// Nulish 
 
-const guests = restaurant.numGuests || 10;
-console.log(guests);
+// restaurant.numGuests = 0;
 
-const guestCorrect = restaurant.numGuests ?? 10;
-console.log(guestCorrect);
+// const guests = restaurant.numGuests || 10;
+// console.log(guests);
+
+// const guestCorrect = restaurant.numGuests ?? 10;
+// console.log(guestCorrect);
 
 ///////////////////////////////////////////
 // Short Circuiting (&& and ||)
