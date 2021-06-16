@@ -87,39 +87,39 @@ const restaurant = {
 
 // console.log(rest.get(arr));
 
-const question = new Map([
-  ['question', 'What is the best programming language in the world?'],
-  [1, 'C'],
-  [2, 'Java'],
-  [3, 'JavaScript'],
-  ['correct', 3],
-  [true, 'Correct!'],
-  [false, 'Try again!']
+// const question = new Map([
+//   ['question', 'What is the best programming language in the world?'],
+//   [1, 'C'],
+//   [2, 'Java'],
+//   [3, 'JavaScript'],
+//   ['correct', 3],
+//   [true, 'Correct!'],
+//   [false, 'Try again!']
 
-]);
-console.log(question);
+// ]);
+// console.log(question);
 
-// Convert object to map
-console.log(Object.entries(openingHours));
-const hourMap = new Map(Object.entries(openingHours));
+// // Convert object to map
+// console.log(Object.entries(openingHours));
+// const hourMap = new Map(Object.entries(openingHours));
 
-console.log(hourMap);
+// console.log(hourMap);
 
-// Quiz app
-console.log(question.get('question'));
-for (const [key, value] of question) {
-  if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
-}
+// // Quiz app
+// console.log(question.get('question'));
+// for (const [key, value] of question) {
+//   if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
+// }
 
-const answer = 3;
-// const answer = Number(prompt('Your answer'));
-console.log(question.get(question.get('correct') === answer));
+// const answer = 3;
+// // const answer = Number(prompt('Your answer'));
+// console.log(question.get(question.get('correct') === answer));
 
-// COnvert map to array
-console.log([...question]);
-// console.log(question.entries());
-console.log([...question.keys()]);
-console.log([...question.values()]);
+// // COnvert map to array
+// console.log([...question]);
+// // console.log(question.entries());
+// console.log([...question.keys()]);
+// console.log([...question.values()]);
 
 ///////////////////////////////////////////
 // SET METHOD 
